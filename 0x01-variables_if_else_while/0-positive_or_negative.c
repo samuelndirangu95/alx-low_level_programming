@@ -17,7 +17,7 @@ int main(void)
 	int n;
 
 	srand(time(0));
-	n=rand() % 101-50;
+	n=rand() % 101;
 
 	if (n>0)
 	{
