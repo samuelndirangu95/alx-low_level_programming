@@ -2,14 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
- *main - Entry Point
- *
- *Description - Print value n status: Postive or Zero or negative
- *
- *
- *Return- Always 0 (Success)
- *
+/**
+ *main-Generates random number and prints status: positive, zero or negative
+ *Return: 0 to exit
  */
 
 int main(void)
@@ -21,7 +16,7 @@ int main(void)
 
 	if (n > 0)
 	{
-		printf("%i is positive", n);
+		printf("%i is positive\n", n);
 	}
 
 	else if (n == 0)
