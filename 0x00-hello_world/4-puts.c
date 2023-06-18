@@ -1,16 +1,13 @@
-#include <studio.h>
+#include <stdio.h>
 
 /**
- *
- * main - Entry point of the program
- *
- * return 0 -Indicates successful execution.
- *
+ * main - prints the phrase "Programming is like building a multilingual puzzle
+ * Return:0 if project is successful, non-zero otherwise
  */
-int main()
-{
-	puts("Programming is like pbuilding a multilingual puzzle"):
-	
-	return (0);
 
+int main(void)
+{
+	puts("\"Programming is like building a multilingual puzzle");
+
+	return (0);
 }
